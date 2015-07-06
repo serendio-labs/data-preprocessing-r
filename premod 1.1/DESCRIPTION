@@ -1,0 +1,10 @@
+Package: premod
+Title: Premodelling Routines
+Version: 0.1
+Authors: Rajesh P <rajesh@serendio.com>
+Description: Contains functions which does premodelling routines like Graphical
+    inspection,Transformations,imputations,etc
+Depends:
+    R (>= 3.1.1)
+License: serendio
+LazyData: true

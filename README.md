@@ -1,4 +1,3 @@
-# diskoveror-datapreprocessing-R
 # Data-Preprocessing
 
 Data pre-processing is an important step in the data mining process. The phrase "garbage in, garbage out" is particularly applicable to data mining and machine learning projects. Data-gathering methods are often loosely controlled, resulting in out-of-range values, impossible data combinations (e.g., Sex: Male, Pregnant: Yes), missing values. Analyzing data that has not been carefully screened for such problems can produce misleading results. Thus, the representation and quality of data is first and foremost before running an analysis.

@@ -1,5 +1,0 @@
-1. Open the "premod1.1" folder. 
-
-2. Open R project with the name "premod" in R studio.
-
-3. Build and reload the Package to start using it. 

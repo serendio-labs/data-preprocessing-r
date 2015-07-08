@@ -13,23 +13,23 @@ Not having the correct and complete data is often the most cited reason for anal
 
 ### The different capabilities offered by our Data-Presprocessing package is given below :  
 
-[Standardization](https://github.com/serendio-labs-stage/diskoveror-datapreprocessing-R/wiki/Standardization) - Standardize the raw feature vectors from the training data.
+[Standardization](https://github.com/serendio-labs/data-preprocessing-r/wiki/Standardization) - Standardize the raw feature vectors from the training data.
 
-[Deviations](https://github.com/serendio-labs-stage/diskoveror-datapreprocessing-R/wiki/Deviations) - Calculate the deviation of a particular value from the average.
+[Deviations](https://github.com/serendio-labs/data-preprocessing-r/wiki/Deviations) - Calculate the deviation of a particular value from the average.
 
-[Indicator Variables](https://github.com/serendio-labs-stage/diskoveror-datapreprocessing-R/wiki/Indicator-Variable) - Create Indicator variables representing the training data.
+[Indicator Variables](https://github.com/serendio-labs/data-preprocessing-r/wiki/Indicator-Variable) - Create Indicator variables representing the training data.
 
-[Skewness](https://github.com/serendio-labs-stage/diskoveror-datapreprocessing-R/wiki/Skewness) - Compute the skewness of a sample within a training set.
+[Skewness](https://github.com/serendio-labs/data-preprocessing-r/wiki/Skewness) - Compute the skewness of a sample within a training set.
 
-[Kurtosis](https://github.com/serendio-labs-stage/diskoveror-datapreprocessing-R/wiki/Kurtosis) - Compute the kurtosis of a sample within a training set.
+[Kurtosis](https://github.com/serendio-labs/data-preprocessing-r/wiki/Kurtosis) - Compute the kurtosis of a sample within a training set.
 
 [Box-cox Transformation](https://github.com/serendio-labs-stage/diskoveror-datapreprocessing-R/wiki/Box-Cox-Transformation) - Transform the training vectors using Box-cox.
 
-[Poisson Transformation](https://github.com/serendio-labs-stage/diskoveror-datapreprocessing-R/wiki/Poisson-Transformation) - Transform the training vectors using Poisson.
+[Poisson Transformation](https://github.com/serendio-labs/data-preprocessing-r/wiki/Poisson-Transformation) - Transform the training vectors using Poisson.
 
-[Proportional Transformation](https://github.com/serendio-labs-stage/diskoveror-datapreprocessing-R/wiki/Proportional-Transformation) - Transform the training vectors with Proportional transformation.
+[Proportional Transformation](https://github.com/serendio-labs/data-preprocessing-r/wiki/Proportional-Transformation) - Transform the training vectors with Proportional transformation.
 
-[Graphical Summary](https://github.com/serendio-labs-stage/diskoveror-datapreprocessing-R/wiki/Graphical-summary) - Get a pictorial representation of the training data.
+[Graphical Summary](https://github.com/serendio-labs/data-preprocessing-r/wiki/Graphical-summary) - Get a pictorial representation of the training data.
 
 ## Getting started
 

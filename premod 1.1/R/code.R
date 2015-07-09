@@ -1,5 +1,5 @@
 
-#'@title Anderson-Darling Normality Test (ad.nor)
+#'@title Anderson-Darling Normality Test (norm.p)
 #'@description Test for normality
 #'@details Anderson-Darling Normality Test is used to determine whether a set of observations follows ‘Normal Distribution’.  The assumption of ‘Normality’ is widely used in Statistics in the areas of Inferential Statistics, Parametric Methods, Modeling (i.e.) from Simple Linear Regression to advanced Predictive Modeling Techniques.
 #'@param Numeric column position x in the dataframe
@@ -7,8 +7,7 @@
 #'@export
 
 
-
-ad.nor <- function(my.data) {
+norm.p <- function(my.data) {
   
   my.matrix <- data.frame(matrix(data = 0,nrow = nrow(my.data),ncol = 7))
   
@@ -39,10 +38,13 @@ ad.nor <- function(my.data) {
   
   if(max(p1,p2,p3,p4)<0.0005) {
     p.value <- 0.0005 } else { p.value <- max(p1,p2,p3,p4)}
-  options(scipen=100)
   return(p.value)
   
 }
+
+
+
+
 
 #'@title Graphical Summary(gs)
 #'@description Gives four types of graphical summary Histogram,Box plot,Time series plot and Auto correlation function plot
@@ -64,7 +66,7 @@ gs <- function(col.pos.x) {
   
   
   
-  hist(mydata[,col.pos],col='tomato',main=paste('Histogram'),probability=T,xlab=paste('Nor.p.val',round(ad.nor(mydata[,col.pos]),4),'mu=',round(mean(mydata[,col.pos]),4),'sigma=',round(sd(mydata[,col.pos]),4)))
+  hist(mydata[,col.pos],col='tomato',main=paste('Histogram'),probability=T,xlab=paste('Nor.p.val',round(norm.p(mydata[col.pos]),4),'mu=',round(mean(mydata[,col.pos]),4),'sigma=',round(sd(mydata[,col.pos]),4)))
   
   rug(mydata[,col.pos])
   
@@ -382,7 +384,7 @@ optimal.lamda <- function(col.pos.x,my.alpha=0.05) {
       my.matrix[my.row.id,1] <- as.numeric(j)
       
       
-      my.matrix[my.row.id,2] <- as.numeric(ad.nor((mydata[,col.pos]^j)))
+      my.matrix[my.row.id,2] <- as.numeric(norm.p((mydata[col.pos]^j)))
       
     }
   }
@@ -455,6 +457,4 @@ prop.trans <- function(your.object) {
 }
 x<-c(.3,.76,.45)
 prop.trans(x)
-
-
 

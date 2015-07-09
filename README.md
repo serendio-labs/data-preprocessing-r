@@ -31,6 +31,8 @@ Not having the correct and complete data is often the most cited reason for anal
 
 [Graphical Summary](https://github.com/serendio-labs/data-preprocessing-r/wiki/Graphical-summary) - Get a pictorial representation of the training data.
 
+[Anderson Normality](https://github.com/serendio-labs/data-preprocessing-r/wiki/Anderson-Darling-Normality)-test for normality
+
 ## Getting started
 
 Download or pull the data-preprocessing package https://github.com/serendio-labs/data-preprocessing-r.git into the appropriate location, then refer to each of the above links to work with the respective utility.
